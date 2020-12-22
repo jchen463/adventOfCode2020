@@ -13,6 +13,7 @@ def main():
 		if (password[pos1-1] == mustContainLetter and password[pos2-1] != mustContainLetter) or \
 		(password[pos1-1] != mustContainLetter and password[pos2-1] == mustContainLetter):
 			validPasswordCount += 1
+	print(validPasswordCount)
 
 if __name__ == '__main__':
     main()
